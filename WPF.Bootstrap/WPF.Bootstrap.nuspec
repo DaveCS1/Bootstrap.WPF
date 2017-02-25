@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Bootstrap.Wpf</id>
+    <version>0.0.3</version>
+    <title>Bootstrap.Wpf</title>
+    <authors>Fay.x</authors>
+    <owners>flyingxu</owners>
+    <licenseUrl>https://github.com/flyingxu/WPF.Bootstrap/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/flyingxu/WPF.Bootstrap</projectUrl>
+    <iconUrl>https://github.com/flyingxu/WPF.Bootstrap/blob/master/WPF.Bootstrap/Bootstrap.WPF.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>WPF theme and controls inspired by bootstrap UI</description>
+    <releaseNotes>Initial Release</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Wpf XAML bootstrap</tags>
+  </metadata>
+</package>
