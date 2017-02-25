@@ -25,3 +25,7 @@ Now you can use the controls, for example:
         </bootstrap:BootstrapPanel>
         
 Remember to add `xmlns:bootstrap="http://github.com/scheshan/bootstrap"`
+
+## Use Wpf.Bootstrap in a WPF User Control Library (.dll) project
+
+If the solution contains one .exe project and several other WPF User Control Library (.dll) projects, the Wpf.Bootstrap package should be added to both the .dll projects and the exe project, even if the .exe project does not use Wpf.Bootstrap directly.
