@@ -1,9 +1,12 @@
 # WPF.Bootstrap
 A Bootstrap Theme for WPF
 
+[![NuGet Version and Downloads count](https://buildstats.info/nuget/Bootstrap.Wpf)](https://www.nuget.org/packages/Bootstrap.Wpf) 
+
 ## How to Use
 
-`Install-Package WPF.Bootstrap`
+`Install-Package Bootstrap.Wpf`
+
 
 Put the following code in your App.xaml or MainWindow.xaml or any other window which use the resourse, for example, in `App.xaml`
 
@@ -32,13 +35,12 @@ If the solution contains one .exe project and several other WPF User Control Lib
 
 ## Project History
 
-This project originally is a fork from [scheshan/WPF.Bootstrap](https://github.com/scheshan/WPF.Bootstrap). This project uses a different nuget pakcage id: `Bootstrap.Wpf`. 
+This project originally is a fork from [scheshan/WPF.Bootstrap](https://github.com/scheshan/WPF.Bootstrap). This project uses a different nuget pakcage id: `Bootstrap.Wpf`. (Could you see the difference?)
 
 ## Revision History
 
-### v0.0.2:
+### v0.0.3:
 
-1)Remove dependency of PresentationFramework.Aero
-2)Remove dependency of Microsoft.windows.shell
+1)Remove dependency of Microsoft.windows.shell
 
 After the removal of above dependencies, the dialog/window stype will be managed by the OS (Win7 or Win10). Thereafter this project will mainly focus on the style/theme of content of window or controls.
