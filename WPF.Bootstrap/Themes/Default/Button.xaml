@@ -4,19 +4,23 @@
         <Setter Property="Padding" Value="12,6"/>
         <Setter Property="BorderThickness" Value="1"/>
     </Style>
-    
-    <Style TargetType="Button" x:Key="DefaultButton" BasedOn="{StaticResource ButtonBaseStyle}">            
+
+    <Style TargetType="Button" x:Key="DefaultButton" BasedOn="{StaticResource ButtonBaseStyle}">
         <Setter Property="BorderBrush" Value="#CCCCCC"/>
         <Setter Property="Background" Value="#FFFFFF"/>
         <Setter Property="Foreground" Value="#333"/>
-        
+
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
                     <Border CornerRadius="4" Name="container" Cursor="Hand" Padding="{TemplateBinding Padding}" 
                             BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}"
-                            Background="{TemplateBinding Background}">
-                        <ContentPresenter TextBlock.Foreground="{TemplateBinding Foreground}"/>
+                            Background="{TemplateBinding Background}"
+                            >
+                        <ContentPresenter ContentSource="{TemplateBinding Content}" 
+                            ContentTemplate="{TemplateBinding ContentTemplate}"
+                            VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                            HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"/>
                         <VisualStateManager.VisualStateGroups>
                             <VisualStateGroup Name="CommonStates">
                                 <VisualState Name="Normal">
@@ -29,7 +33,7 @@
                                         <ColorAnimation Storyboard.TargetName="container" Storyboard.TargetProperty="(Border.BorderBrush).(SolidColorBrush.Color)" 
                                                         Duration="0:0:0.02" To="#ADADAD"></ColorAnimation>
                                     </Storyboard>
-                                </VisualState>                                
+                                </VisualState>
                                 <VisualState Name="Pressed">
                                     <Storyboard>
                                         <ColorAnimation Storyboard.TargetName="container" Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" 
@@ -62,7 +66,10 @@
                     <Border CornerRadius="4" Name="container" Cursor="Hand" Padding="{TemplateBinding Padding}" 
                             BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}"
                             Background="{TemplateBinding Background}">
-                        <ContentPresenter TextBlock.Foreground="{TemplateBinding Foreground}"/>
+                        <ContentPresenter ContentSource="{TemplateBinding Content}" 
+                            ContentTemplate="{TemplateBinding ContentTemplate}"
+                            VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                            HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"/>
                         <VisualStateManager.VisualStateGroups>
                             <VisualStateGroup>
                                 <VisualState Name="Normal">
@@ -112,7 +119,10 @@
                     <Border CornerRadius="4" Name="container" Cursor="Hand" Padding="{TemplateBinding Padding}" 
                             BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}"
                             Background="{TemplateBinding Background}">
-                        <ContentPresenter TextBlock.Foreground="{TemplateBinding Foreground}"/>
+                        <ContentPresenter ContentSource="{TemplateBinding Content}" 
+                            ContentTemplate="{TemplateBinding ContentTemplate}"
+                            VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                            HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"/>
                         <VisualStateManager.VisualStateGroups>
                             <VisualStateGroup Name="CommonStates">
                                 <VisualState Name="Normal">
@@ -125,7 +135,7 @@
                                         <ColorAnimation Storyboard.TargetName="container" Storyboard.TargetProperty="(Border.BorderBrush).(SolidColorBrush.Color)" 
                                                         Duration="0:0:0.02" To="#398439"></ColorAnimation>
                                     </Storyboard>
-                                </VisualState>                                
+                                </VisualState>
                                 <VisualState Name="Pressed">
                                     <Storyboard>
                                         <ColorAnimation Storyboard.TargetName="container" Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" 
@@ -162,7 +172,10 @@
                     <Border CornerRadius="4" Name="container" Cursor="Hand" Padding="{TemplateBinding Padding}" 
                             BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}"
                             Background="{TemplateBinding Background}">
-                        <ContentPresenter TextBlock.Foreground="{TemplateBinding Foreground}"/>
+                        <ContentPresenter ContentSource="{TemplateBinding Content}" 
+                            ContentTemplate="{TemplateBinding ContentTemplate}"
+                            VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                            HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"/>
                         <VisualStateManager.VisualStateGroups>
                             <VisualStateGroup>
                                 <VisualState Name="Normal">
@@ -183,7 +196,7 @@
                                         <ColorAnimation Storyboard.TargetName="container" Storyboard.TargetProperty="(Border.BorderBrush).(SolidColorBrush.Color)" 
                                                         Duration="0:0:0.02" To="#1b6d85"></ColorAnimation>
                                     </Storyboard>
-                                </VisualState>                                
+                                </VisualState>
                                 <VisualState Name="Disabled">
                                     <Storyboard>
                                         <ColorAnimation Storyboard.TargetName="container" Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" 
@@ -212,7 +225,10 @@
                     <Border CornerRadius="4" Name="container" Cursor="Hand" Padding="{TemplateBinding Padding}" 
                             BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}"
                             Background="{TemplateBinding Background}">
-                        <ContentPresenter TextBlock.Foreground="{TemplateBinding Foreground}"/>
+                        <ContentPresenter ContentSource="{TemplateBinding Content}" 
+                            ContentTemplate="{TemplateBinding ContentTemplate}"
+                            VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                            HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"/>
                         <VisualStateManager.VisualStateGroups>
                             <VisualStateGroup>
                                 <VisualState Name="Normal">
@@ -225,7 +241,7 @@
                                         <ColorAnimation Storyboard.TargetName="container" Storyboard.TargetProperty="(Border.BorderBrush).(SolidColorBrush.Color)" 
                                                         Duration="0:0:0.02" To="#d58512"></ColorAnimation>
                                     </Storyboard>
-                                </VisualState>                                
+                                </VisualState>
                                 <VisualState Name="Pressed">
                                     <Storyboard>
                                         <ColorAnimation Storyboard.TargetName="container" Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" 
@@ -262,7 +278,10 @@
                     <Border CornerRadius="4" Name="container" Cursor="Hand" Padding="{TemplateBinding Padding}" 
                             BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}"
                             Background="{TemplateBinding Background}">
-                        <ContentPresenter TextBlock.Foreground="{TemplateBinding Foreground}"/>
+                        <ContentPresenter ContentSource="{TemplateBinding Content}" 
+                            ContentTemplate="{TemplateBinding ContentTemplate}"
+                            VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                            HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"/>
                         <VisualStateManager.VisualStateGroups>
                             <VisualStateGroup>
                                 <VisualState Name="Normal">
