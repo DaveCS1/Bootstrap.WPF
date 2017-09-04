@@ -39,6 +39,14 @@ This project originally is a fork from [scheshan/WPF.Bootstrap](https://github.c
 
 ## Revision History
 
+### v0.0.4:
+
+Added TabPanel:
+
+You can use TabPanel alone with as a navigation control. You don't need to bind it to tab content.
+
+![TabPanel](./TabPanel.png)
+
 ### v0.0.3:
 
 1)Remove dependency of Microsoft.windows.shell

@@ -13,5 +13,6 @@
         <ResourceDictionary Source="/WPF.Bootstrap;component/Themes/Default/RadioButton.xaml"/>
         <ResourceDictionary Source="/WPF.Bootstrap;component/Themes/Default/ListBox.xaml"/>
         <ResourceDictionary Source="/WPF.Bootstrap;component/Themes/Default/ScrollBar.xaml"/>
+        <ResourceDictionary Source="/WPF.Bootstrap;component/Themes/Default/TabPanel.xaml"/>
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>

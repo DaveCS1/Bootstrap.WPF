@@ -71,6 +71,9 @@
     <Compile Include="Views\ProgressBar.xaml.cs">
       <DependentUpon>ProgressBar.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\TabPanelControl.xaml.cs">
+      <DependentUpon>TabPanelControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Text.xaml.cs">
       <DependentUpon>Text.xaml</DependentUpon>
     </Compile>
@@ -103,6 +106,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\ProgressBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TabPanelControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

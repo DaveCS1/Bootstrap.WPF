@@ -1,4 +1,4 @@
-﻿<wpf:Dialog
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:b="http://www.scheshan.com/bootstrap"
@@ -24,5 +24,8 @@
         <TabItem Header="List">
             <view:List/>
         </TabItem>
+        <TabItem Header="TabPanel">
+            <view:TabPanelControl></view:TabPanelControl>
+        </TabItem>
     </TabControl>
-</wpf:Dialog>
+</Window>
