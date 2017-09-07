@@ -18,9 +18,9 @@ namespace WPF.Bootstrap.Demo.Views
     /// <summary>
     /// Interaction logic for TabPanelControl.xaml
     /// </summary>
-    public partial class TabPanelControl : UserControl
+    public partial class TabNaviControl : UserControl
     {
-        public TabPanelControl()
+        public TabNaviControl()
         {
             InitializeComponent();
         }
