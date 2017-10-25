@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Bootstrap.Wpf</id>
-    <version>0.0.4</version>
+    <version>0.0.5</version>
     <title>Bootstrap.Wpf</title>
     <authors>Felix.x</authors>
     <owners>flyingxu</owners>
@@ -12,7 +12,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>WPF theme and controls inspired by bootstrap UI</description>
     <releaseNotes>Use TabPanel alone as a navication control</releaseNotes>
-    <copyright>Copyright 2018</copyright>
-    <tags>Wpf XAML bootstrap</tags>
+    <copyright>Copyright 2017</copyright>
+    <tags>Wpf XAML bootstrap TabControl</tags>
   </metadata>
 </package>
