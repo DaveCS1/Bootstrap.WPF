@@ -27,5 +27,8 @@
         <TabItem Header="TabNavi">
             <view:TabNaviControl></view:TabNaviControl>
         </TabItem>
+      <TabItem Header="TabPanel">
+        <view:TabPanelControl></view:TabPanelControl>
+      </TabItem>
     </TabControl>
 </Window>

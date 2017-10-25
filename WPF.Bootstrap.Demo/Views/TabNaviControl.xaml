@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
-            <TabControl TabStripPlacement="Left" Style="{DynamicResource TabPanelStyle}" 
+            <TabControl TabStripPlacement="Left" Style="{DynamicResource TabNaviStyle}" 
                         Width="200"
                         VerticalAlignment="Center" HorizontalAlignment="Center">
                 <TabItem Header="1"></TabItem>
