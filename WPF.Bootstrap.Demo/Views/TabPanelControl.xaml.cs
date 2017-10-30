@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WPF.Bootstrap.Demo.ViewModels;
 
 namespace WPF.Bootstrap.Demo.Views
 {
@@ -23,6 +24,8 @@ namespace WPF.Bootstrap.Demo.Views
         public TabPanelControl()
         {
             InitializeComponent();
+
+            DataContext = new TabInPanelViewModel();
         }
     }
 }

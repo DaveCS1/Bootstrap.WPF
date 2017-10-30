@@ -62,7 +62,7 @@
               <ControlTemplate TargetType="TabItem">
                 <Grid Cursor="Hand">
                   <Border Name="container" Padding="15 10" BorderThickness="0">
-                    <TextBlock Name="content" MinWidth="60" Foreground="#ccc" Text="{TemplateBinding Header}"></TextBlock>
+                    <TextBlock Name="content" MinWidth="60" Foreground="#ccc" Text="{Binding Header}"></TextBlock>
                   </Border>
                 </Grid>
                 <ControlTemplate.Triggers>

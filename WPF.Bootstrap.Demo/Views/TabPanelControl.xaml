@@ -9,14 +9,8 @@
   <UserControl.Resources>
   </UserControl.Resources>
   <Grid>
-    <controls:TabInPanel TabStripPlacement="Top" Style="{DynamicResource TabInPanelStyle}" PanelBackground="{DynamicResource BgPrimary}">
-      <TabItem Header="1">
-        <TextBlock Text="test"></TextBlock>
-      </TabItem>
-      <TabItem Header="1 asdf "></TabItem>
-      <TabItem Header="1 asd asd adsf"></TabItem>
-      <TabItem Header="1 incalctive"></TabItem>
-      <TabItem Header="1 active"></TabItem>
+    <controls:TabInPanel TabStripPlacement="Top" Style="{DynamicResource TabInPanelStyle}" PanelBackground="{DynamicResource BgPrimary}"
+                         ItemsSource="{Binding TabItems}">
     </controls:TabInPanel>
   </Grid>
 </UserControl>
