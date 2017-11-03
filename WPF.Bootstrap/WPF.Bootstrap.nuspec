@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Bootstrap.Wpf</id>
-    <version>0.0.6</version>
+    <version>0.0.7</version>
     <title>Bootstrap.Wpf</title>
     <authors>Felix.x</authors>
     <owners>flyingxu</owners>
@@ -11,7 +11,7 @@
     <iconUrl>https://github.com/flyingxu/Bootstrap.WPF/blob/master/WPF.Bootstrap/Bootstrap.WPF.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>WPF theme and controls inspired by bootstrap UI</description>
-    <releaseNotes>Use TabInPanel as a panel control containing tabs inside.</releaseNotes>
+    <releaseNotes>Remove the border of readonly textbox</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>Wpf XAML bootstrap TabControl</tags>
   </metadata>
