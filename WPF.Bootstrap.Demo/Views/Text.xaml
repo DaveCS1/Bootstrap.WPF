@@ -29,6 +29,7 @@
         </Border>
 
         <TextBox Margin="10" Text="textbox"></TextBox>
+        <TextBox Margin="10" Text="textbox 2"></TextBox>
 
         <TextBox Margin="10" IsEnabled="False" Text="textbox disabled"></TextBox>
 
